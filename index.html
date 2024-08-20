@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decodificador de Texto</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body class="gradient">
+    <h1>Resolva o misterio</h1>
+    <main>
+        <aside>
+            <textarea name="texto" id="textinho" rows="15" cols="30" placeholder="Digite seu texto"></textarea>
+            <div class="botoes">
+                <button class="encriptar" onclick="criptografar()">Criptografar</button>
+                <button class="desencriptar" onclick="descriptografar()">Descriptografar</button> 
+            </div>
+        </aside>
+        <article>
+            <img id="cabritafoto" src="cabritaoc.jpg" alt="cabrita filhote de óculos" height="200px">
+            <textarea id="resultado" rows="15" cols="30" readonly>O texto criptografado irá aparecer aqui!</textarea>
+            <button class="copiando" id="copiando">Copiar</button>
+        </article>
+    </main>
+    
+    <footer>
+        <nav>   
+            <ul>
+                <li class="nome">
+                    &copy;  Desenvolvido por Leticia Fontes 🐐</a></li>
+                </li>
+                <li> <a href="https://github.com/lethblue17" target="_blank"> 
+                    <img class="gitlogo" src="gitlogo.png" alt="Meu github" width = 22px;></a></li>
+
+                <li> <a href="https://www.linkedin.com/in/leticiafontesdantas/" target="_blank"> 
+                    <img class="linkedin-logo" src="linkedinicon.png" alt="Meu linkedin" width = 22px;></a></li>
+
+            </ul> 
+        </nav>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
